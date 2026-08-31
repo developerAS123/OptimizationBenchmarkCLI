@@ -1,0 +1,9 @@
+torch
+transformers
+onnx
+onnxruntime
+onnxscript
+matplotlib
+numpy
+sentencepiece
+tiktoken

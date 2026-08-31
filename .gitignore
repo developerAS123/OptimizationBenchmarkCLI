@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+benchmark_output
+.venv/
+__pycache__/
+benchmark_output/*.onnx
+benchmark_output/*.pt

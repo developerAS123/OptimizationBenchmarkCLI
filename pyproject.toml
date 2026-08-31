@@ -1,0 +1,27 @@
+[project]
+name = "onnxoptimizationbenchmark"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ankit", email = "ankitsinghrajput8521@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "onnx>=1.22.0",
+    "onnxruntime>=1.29.0",
+    "onnxscript>=0.7.1",
+    "sentencepiece>=0.2.2",
+    "tiktoken>=0.14.0",
+    "torch>=2.13.0",
+    "transformers>=5.16.1",
+]
+
+[project.scripts]
+onnxoptimizationbenchmark = "onnxoptimizationbenchmark:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
