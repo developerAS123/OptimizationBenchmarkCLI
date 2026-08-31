@@ -47,7 +47,7 @@ uv run benchmark_cli.py --model google/bert_uncased_L-2_H-128_A-2 --batch-sizes 
 | 16    | 77.080              | 58.361            | 32.935            |
 | 32    | 135.566             | 122.686           | 82.563            |
 
-![Latency vs Batch Size](benchmark_output/distilbert-base-uncased_latency_chart.png)
+![Latency vs Batch Size](distilbert-base-uncased_latency_chart.png)
 
 ## Key findings
 - Biggest speedup observed: **82.9% on INT8 BatchSize:1**
